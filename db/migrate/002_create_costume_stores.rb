@@ -1,6 +1,6 @@
 class CreateCostumeStores
   def change
-    create_table :costume_store do |t|
+    create_table :costume_stores do |t|
       t.string :name
       t.string :location
       t.integer :num_of_employees
