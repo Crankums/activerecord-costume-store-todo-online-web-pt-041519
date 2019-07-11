@@ -7,5 +7,6 @@ class CreateCostumeStores
       t.integer :costume_inventory
       t.string :opening_time
       t.string :closing_time
+    end
   end
 end
